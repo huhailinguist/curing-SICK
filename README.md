@@ -23,7 +23,7 @@ To be more specific, 3,138 pairs (31.6% of the entire corpus) have been reannota
 `results100.xlsx` contains annotations from crowd workers on MTurk. 
 They were asked to give two labels for each pair, one as a judge in court (being strict), another as a person on the street.
 
-- from chaosNLI: three columns showing the number of annotators giving the Entail, Neutral or Contradiction label
+- from chaosNLI: three columns showing the number of annotators giving the Entail, Neutral or Contradiction label, taken from the chaosNLI dataset (Nie et al 2020)
 - ours-as judge: the number of crowd workers annotating a certain label as a judge, 10 workers have worked on a pair, but some were removed because they answered the catch trial wrong
 - ours-as person on the street: the number of crowd workers annotating a certain label as a person on the street
 - ours majority-as judge: majority label
@@ -38,8 +38,8 @@ The paper is accepted to Computational Linguistics.
 
 ```
 @article{kalouliEtAl2023, 
-  author    = {Aikaterini-Lida Kalouli and
-               Hai Hu and
+  author    = {Aikaterini-Lida Kalouli* and
+               Hai Hu* and
                Alexander F. Webb and
                Lawrence S. Moss and
                Valeria de Paiva},
