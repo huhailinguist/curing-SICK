@@ -4,15 +4,15 @@ This repo contains the data presented in the paper *Curing the SICK and other NL
 
 ## re-annotated SICK
 
-`SICK-cured.csv` is our fully re-annotated SICK dataset, where:
+`SICK-cured.csv` is our fully re-annotated [SICK](https://marcobaroni.org/composes/sick.html) dataset, where:
 
 - Origin: either the data point is from SICK or in semeval
 - Logic_label: the logic label for the NLI pair, either aggregated from the symbolic systems, or aggregated from the 3 human expert annotators
 - Commonsense_label: the commensense label for the NLI pair, either aggregated from the symbolic systems, or aggregated from the 3 human expert annotators
 - SICK_original_label: original label from SICK
-- monalog: label assigned by the MonaLog system (Hu et al 2020)
-- gkr4nli: label assigned by the GKR4NLI system (Kalouli et al 2020; Kalouli 2021)	
-- langpro: label assigned by the LangPro system (Abzianidze 2017)
+- [monalog](https://github.com/huhailinguist/monalog): label assigned by the MonaLog system (Hu et al 2020)
+- [gkr4nli](https://github.com/kkalouli/GKR4NLI): label assigned by the GKR4NLI system (Kalouli et al 2020; Kalouli 2021)	
+- [langpro](https://github.com/kovvalsky/LangPro): label assigned by the LangPro system (Abzianidze 2017)
 - [ccg2lambda_easyccg](https://github.com/mynlp/ccg2lambda): label assigned by the ccg2lambda system with the EasyCCG parser (Yanaka et al 2018)
 - [ccg2lambda_candc](https://github.com/mynlp/ccg2lambda): label assigned by the ccg2lambda system with the CandC parser (Yanaka et al 2018)
 
@@ -87,7 +87,7 @@ ccg2lambda system:
 }
 ```
 
-langpro system:
+LangPro system:
 ```
 @inproceedings{AbzianidzeLangPro,
     title = "{L}ang{P}ro: Natural Language Theorem Prover",
