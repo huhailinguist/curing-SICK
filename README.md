@@ -49,4 +49,95 @@ The paper is accepted to Computational Linguistics.
 }
 ```
 
+## Citations for the resources used in the paper
+
+The original SICK corpus:
+```
+@inproceedings{marelli2014,
+title = "A {SICK} cure for the evaluation of compositional distributional semantic models",
+author = "Marelli, Marco  and
+Menini, Stefano  and
+Baroni, Marco  and
+Bentivogli, Luisa  and
+Bernardi, Raffaella  and
+Zamparelli, Roberto",
+booktitle = "Proceedings of the Ninth International Conference on Language Resources and Evaluation ({LREC}'14)",
+month = may,
+year = "2014",
+address = "Reykjavik, Iceland",
+publisher = "European Language Resources Association (ELRA)",
+url = "http://www.lrec-conf.org/proceedings/lrec2014/pdf/363_Paper.pdf",
+pages = "216--223",
+abstract = "Shared and internationally recognized benchmarks are fundamental for the development of any computational system. We aim to help the research community working on compositional distributional semantic models (CDSMs) by providing SICK (Sentences Involving Compositional Knowldedge), a large size English benchmark tailored for them. SICK consists of about 10,000 English sentence pairs that include many examples of the lexical, syntactic and semantic phenomena that CDSMs are expected to account for, but do not require dealing with other aspects of existing sentential data sets (idiomatic multiword expressions, named entities, telegraphic language) that are not within the scope of CDSMs. By means of crowdsourcing techniques, each pair was annotated for two crucial semantic tasks: relatedness in meaning (with a 5-point rating scale as gold score) and entailment relation between the two elements (with three possible gold labels: entailment, contradiction, and neutral). The SICK data set was used in SemEval-2014 Task 1, and it freely available for research purposes.",
+}
+```
+
+ccg2lambda system:
+```
+@inproceedings{YanakaMMB18, 
+  author    = {Hitomi Yanaka and
+               Koji Mineshima and
+               Pascual Mart{\'{\i}}nez{-}G{\'{o}}mez and
+               Daisuke Bekki},
+  title     = {{A}cquisition of {P}hrase {C}orrespondences Using {N}atural {D}eduction {P}roofs},
+  booktitle = {Proceedings of NAACL}, 
+  year      = {2018},
+  pages={756--766},
+  url={https://www.aclweb.org/anthology/N18-1069/}
+}
+```
+
+langpro system:
+```
+@inproceedings{AbzianidzeLangPro,
+    title = "{L}ang{P}ro: Natural Language Theorem Prover",
+    author = "Abzianidze, Lasha",
+    booktitle = "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+    month = sep,
+    year = "2017",
+    address = "Copenhagen, Denmark",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D17-2020",
+    doi = "10.18653/v1/D17-2020",
+    pages = "115--120",
+}
+```
+
+GKR4NLI:
+```
+@inproceedings{kalouli2020b, 
+	author = {Aikaterini-Lida Kalouli and Richard Crouch and Valeria de Paiva },
+	title = {Hy-NLI: a Hybrid system for Natural Language Inference},
+	booktitle = {Proceedings of the 28th International Conference on Computational Linguistics},
+	series = {COLING '20},
+	year = {2020},
+    pages={5235–5249},
+	location = {Barcelona, Spain},
+	publisher = {Association for Computational Linguistics}
+} 
+
+
+
+@phdthesis{Kalouli2021diss, 
+  title={Hy-NLI : a Hybrid system for state-of-the-art Natural Language Inference},
+  year={2021},
+  author={Kalouli, Aikaterini-Lida},
+  address={Konstanz},
+  school={Universität Konstanz}
+}
+```
+
+MonaLog
+```
+@inproceedings{monalog,
+	title={{MonaLog: a Lightweight System for Natural Language Inference Based on Monotonicity}},
+	author={Hu, Hai and Chen, Qi and Richardson, Kyle and Mukherjee, Atreyee and Moss, Lawrence S and Kuebler, Sandra},
+	booktitle={Proceedings of SCiL},
+	year={2020},
+    pages={334--344},
+	url={https://arxiv.org/abs/1910.08772}
+}
+```
+
+
 
