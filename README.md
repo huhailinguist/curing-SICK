@@ -13,8 +13,8 @@ This repo contains the data presented in the paper *Curing the SICK and other NL
 - monalog: label assigned by the MonaLog system (Hu et al 2020)
 - gkr4nli: label assigned by the GKR4NLI system (Kalouli et al 2020; Kalouli 2021)	
 - langpro: label assigned by the LangPro system (Abzianidze 2017)
-- ccg2lambda_easyccg: label assigned by the ccg2lamdbda system with teh EasyCCG parser (Yanaka et al 2018)
-- ccg2lambda_candc: label assigned by the ccg2lamdbda system with teh CandC parser (Yanaka et al 2018)
+- [ccg2lambda_easyccg](https://github.com/mynlp/ccg2lambda): label assigned by the ccg2lambda system with the EasyCCG parser (Yanaka et al 2018)
+- [ccg2lambda_candc](https://github.com/mynlp/ccg2lambda): label assigned by the ccg2lambda system with the CandC parser (Yanaka et al 2018)
 
 To be more specific, 3,138 pairs (31.6% of the entire corpus) have been reannotated by us, each pair by 3 expert annotators. See section 3 of the paper for details. 
 
