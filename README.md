@@ -72,6 +72,28 @@ abstract = "Shared and internationally recognized benchmarks are fundamental for
 }
 ```
 
+The chaosNLI corpus:
+
+```
+@inproceedings{nie2020chaosnli,
+  title={What Can We Learn from Collective Human Opinions on Natural Language Inference Data?},
+  author={Nie, Yixin and Zhou, Xiang and Bansal, Mohit},
+  booktitle={Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  pages={9131--9143},
+  year={2020}
+}
+```
+
+The MNLI corpus
+```
+@inproceedings{williams2018mnli,
+  title={A Broad-Coverage Challenge Corpus for Sentence Understanding through Inference},
+  author={Williams, Adina and Nangia, Nikita and Bowman, Samuel},
+  booktitle={Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)},
+  pages={1112--1122},
+  year={2018}
+}
+```
 ccg2lambda system:
 ```
 @inproceedings{YanakaMMB18, 
