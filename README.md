@@ -1,6 +1,6 @@
 # curing-SICK
 
-This repo contains the data presented in the paper *Curing the SICK and other NLI maladies*.
+This repo contains the data presented in the paper (*Curing the SICK and other NLI maladies*)[https://doi.org/10.1162/coli_a_00465].
 
 ## re-annotated SICK
 
